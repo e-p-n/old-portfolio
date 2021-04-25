@@ -7,14 +7,19 @@
   pointer-events: none;
 }
 
+.App-logo-holder {
+  animation: 3s linear 1s infinite running slidein;
+}
+
 @media (prefers-reduced-motion: no-preference) {
+  
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin 1 3s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #5cdb95;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
