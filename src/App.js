@@ -4,6 +4,8 @@ import About from './components/About';
 import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume'
+import Footer from './components/Footer'
+import './assets/css/colours.scss'
 
 function App() {
   const [navSelected, setNavSelected] = useState('about');
@@ -13,7 +15,7 @@ function App() {
       <Nav
         navSelected={navSelected}
         setNavSelected={setNavSelected}
-      ></Nav>
+      />
       <main>
         {navSelected === 'contact' && (
           <ContactForm />    
@@ -26,8 +28,10 @@ function App() {
         )}
          {navSelected === 'resume' && (
           <Resume />
-        )}                   
-      </main>    
+        )}   
+      </main>   
+      <Footer />                
+ 
     </div>
   );
 }

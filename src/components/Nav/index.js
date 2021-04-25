@@ -12,27 +12,27 @@ function Nav(props) {
 
   
   return (
-    <header className="flex-row px-1">
-        <h2>
-            <a data-testid="link" href="/">
+    <header>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a className="navbar-brand" href="/">
                 <img src={Logo} height="90" alt="Eric Normann" />
             </a>
-        </h2>
-        <nav>
-            <ul className="flex-row">
-            <li className={`mx-2 ${navSelected ==='about' && 'navActive'}`}>
-                    <span onClick={() => setNavSelected('about')}>About Me</span>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul className="navbar-nav ml-auto">
+                <li className={`nav-item ${navSelected ==='about' && 'active'}`}>
+                    <span className="nav-link" onClick={() => setNavSelected('about')}>About Me</span>
                 </li>
-                <li className={`mx-2 ${navSelected ==='portfolio' && 'navActive'}`}>
-                    <span onClick={() => setNavSelected('portfolio')}>Portfolio</span>
+                <li className={`nav-item ${navSelected ==='portfolio' && 'active'}`}>
+                    <span className="nav-link" onClick={() => setNavSelected('portfolio')}>Portfolio</span>
+                </li><li className={`nav-item ${navSelected ==='contact' && 'active'}`}>
+                    <span className="nav-link" onClick={() => setNavSelected('contact')}>Contact Me</span>
+                </li><li className={`nav-item ${navSelected ==='resume' && 'active'}`}>
+                    <span className="nav-link" onClick={() => setNavSelected('resume')}>Resume</span>
                 </li>
-                <li className={`mx-2 ${navSelected === 'contact' && 'navActive'}`}>
-                    <span onClick={() => setNavSelected('contact')}>Contact</span>
-                </li>
-                <li className={`mx-2 ${navSelected === 'resume' && 'navActive'}`}>
-                    <span onClick={() => setNavSelected('resume')}>Resume</span>
-                </li>
-            </ul>
+        
+                </ul>
+
+            </div>
         </nav>
     </header>
   );
