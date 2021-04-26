@@ -5,7 +5,7 @@ const PortfolioItems = ({ category }) => {
   const [photos] = useState([
     {
       name: 'Envoy',
-      description: 'A commuinity website designed to help members learn and share information on environmentally sound products and practices.',
+      description: 'A community website designed to help members learn and share information on environmentally sound products and practices.',
       tools: 'Built with  MySQL, JavaScript, Node.js, Express, Sequelize, Bootstrap, Handlebars, Flickity, jQuery Bar Rating and Typed.js.',
       website_1: 'https://envoy-guide.herokuapp.com/',
       website_2: 'https://github.com/Envoy-products/Envoy-Products'
