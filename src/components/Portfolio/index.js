@@ -1,13 +1,13 @@
 import React from 'react';
-import PortfolioItems from '../PortfolioItems';
+import Project from '../Project';
 
 
 function Portfolio() {
     return (
-        <section>
+        <section className="mt-5">
             <h1>Portfolio</h1>
             <p>Description of web projects goes here</p>
-            <PortfolioItems />
+            <Project />
         </section>
     );
 }

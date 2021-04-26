@@ -5,7 +5,7 @@ import Portfolio from './components/Portfolio';
 import ContactForm from './components/Contact';
 import Resume from './components/Resume'
 import Footer from './components/Footer'
-import './assets/css/colours.scss'
+import './assets/css/styles.scss'
 
 function App() {
   const [navSelected, setNavSelected] = useState('about');
@@ -16,7 +16,7 @@ function App() {
         navSelected={navSelected}
         setNavSelected={setNavSelected}
       />
-      <main>
+      <main className="container">
         {navSelected === 'contact' && (
           <ContactForm />    
         )}    

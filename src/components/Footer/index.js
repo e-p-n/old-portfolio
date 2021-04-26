@@ -7,28 +7,28 @@ function Footer() {
             <div className="container p-3 pb-0">
                 <section>
                     {/* <!-- Linkedin --> */}
-                    <a className="btn btn-outline-dark btn-floating m-1" href="https://www.linkedin.com/in/eric-normann-b8a4991b2/" role="button" target="_blank" rel="noreferrer"
+                    <a className="btn btn-outline-dark btn-floating rounded-circle m-1 site-link" href="https://www.linkedin.com/in/eric-normann-b8a4991b2/" role="button" target="_blank" rel="noreferrer"
                         ><i className="fab fa-linkedin-in"></i
                     ></a>
 
                     {/* <!-- Github --> */}
-                    <a className="btn btn-outline-dark btn-floating m-1" href="https://github.com/e-p-n" role="button" target="_blank" rel="noreferrer"
+                    <a className="btn btn-outline-dark btn-floating rounded-circle m-1 site-link" href="https://github.com/e-p-n" role="button" target="_blank" rel="noreferrer"
                         ><i className="fab fa-github"></i
                     ></a>
                     {/* Facebook  */}
-                    <a className="btn btn-outline-dark btn-floating m-1" href="https://www.facebook.com/eric.normann" role="button" target="_blank" rel="noreferrer"
+                    <a className="btn btn-outline-dark btn-floating rounded-circle m-1 site-link" href="https://www.facebook.com/eric.normann" role="button" target="_blank" rel="noreferrer"
                         ><i className="fab fa-facebook-f"></i
                     ></a>
 
                     {/* Twitter */}
-                    <a className="btn btn-outline-dark btn-floating m-1" href="https://twitter.com/Eric_Gobsmact" role="button" target="_blank" rel="noreferrer"
+                    <a className="btn btn-outline-dark btn-floating rounded-circle m-1 site-link" href="https://twitter.com/Eric_Gobsmact" role="button" target="_blank" rel="noreferrer"
                         ><i className="fab fa-twitter"></i
                     ></a>
                 </section>
             </div>
 
             <div className="bg-primary p-2 text-light">
-                &copy; 2021 Copyright: Eric Normann
+                &copy; 2021: Eric Normann
             </div>
 
         </footer>
