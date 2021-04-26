@@ -3,7 +3,7 @@ import React from 'react';
 
 function Footer() {
     return (
-        <footer className="footer bg-secondary text-center text-dark fixed-bottom">
+        <footer className="bg-secondary text-center text-dark">
             <div className="container p-3 pb-0">
                 <section>
                     {/* <!-- Linkedin --> */}
@@ -14,10 +14,6 @@ function Footer() {
                     {/* <!-- Github --> */}
                     <a className="btn btn-outline-dark btn-floating rounded-circle m-1 site-link" href="https://github.com/e-p-n" role="button" target="_blank" rel="noreferrer"
                         ><i className="fab fa-github"></i
-                    ></a>
-                    {/* Facebook  */}
-                    <a className="btn btn-outline-dark btn-floating rounded-circle m-1 site-link" href="https://www.facebook.com/eric.normann" role="button" target="_blank" rel="noreferrer"
-                        ><i className="fab fa-facebook-f"></i
                     ></a>
 
                     {/* Twitter */}

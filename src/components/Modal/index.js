@@ -24,7 +24,7 @@ function Modal({onClose, currentPhoto}) {
                     <a href={website_1} target="_blank" rel="noreferrer" className="btn btn-primary rounded-pill">
                         Visit site
                     </a>
-                    <a href={website_2} target="_blank" rel="noreferrer" className="btn btn-primary rounded-pill ml-2">
+                    <a href={website_2} target="_blank" rel="noreferrer" className="btn btn-primary rounded-pill">
                         Visit <i className="fab fa-github"></i> Repository
                     </a>
                 </div>

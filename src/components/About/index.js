@@ -4,10 +4,10 @@ import React from 'react';
 function About() {
     return (
         <section className="mt-5">
-            <div class="row">
+            <div className="row">
                 <h1 id="about">About me</h1>
             </div>
-            <div class="row">
+            <div className="row">
 
             <div className="col about-img pl-0">
                 <img src="https://e-p-n.github.io/portfolio-1/assets/images/eric.jpg" alt=""></img>

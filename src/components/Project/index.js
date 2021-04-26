@@ -25,7 +25,7 @@ const PortfolioItems = ({ category }) => {
       website_2: 'https://github.com/e-p-n/poster'
     },
     {
-      name: 'Team Profile Geerator',
+      name: 'Team Profile Generator',
       description: 'A Node.js tool used to build a team profile webpage based off user input.',
       tools: 'The website link shows a sample of a page created with the tool. Built with Node.js and Inquirer.',
       website_1: 'https://e-p-n.github.io/team-profile-generator/dist/',
@@ -64,7 +64,7 @@ const PortfolioItems = ({ category }) => {
         {isModalOpen && <Modal currentPhoto={currentPhoto} onClose={toggleModal} /> }
           <div className="row">
               {currentPhotos.map((image, i)=> (
-                <div className="card border-left-0 border-top-0 border-right-0 justify-content-center">
+                <div className="card border-left-0 border-top-0 border-right-0 text-center justify-content-center">
                   <img 
                     src={require(`../../assets/images/small/${i}.png`).default}
                     alt={image.name}
