@@ -65,6 +65,7 @@ body {
 }
 
 .modalContainer {
+    border: solid 2px $primary;
 	background: $success;
 	border-radius: 10px;
 	max-width: 100%;

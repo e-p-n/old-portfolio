@@ -13,30 +13,35 @@ const PortfolioItems = ({ category }) => {
     {
       name: 'Screen Genius',
       description: 'A website designed to help users find movies they may not have seen before.',
+      tools: 'Built with  HTML, Bulma CSS, JavaScript, The Movie Database API and the Utelly API.',
       website_1: 'https://screen-genius.github.io/',
       website_2: 'https://github.com/screen-genius/screen-genius.github.io'
     },
     {
       name: '{POST}er',
       description: 'A blog site where users can post their experiences learning how to code and comment on other users posts.',
+      tools: 'Built with MySQL, Sequelize, Handlebars, Node.js and Express.',
       website_1: 'https://radiant-peak-23837.herokuapp.com/',
       website_2: 'https://github.com/e-p-n/poster'
     },
     {
-      name: 'Gobsmact',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
-      website_1: 'https://www.zazzle.ca/store/gobsmact',
-      website_2: 'https://www.facebook.com/Gobsmact/'
+      name: 'Team Profile Geerator',
+      description: 'A Node.js tool used to build a team profile webpage based off user input.',
+      tools: 'The website link shows a sample of a page created with the tool. Built with Node.js and Inquirer.',
+      website_1: 'https://e-p-n.github.io/team-profile-generator/dist/',
+      website_2: 'https://github.com/e-p-n/team-profile-generator'
     },
     {
       name: '4-caster',
-      description: 'A weather forecasting website that allows users to search by city for current weather and 5-day forecasts',
+      description: 'A weather forecasting website that allows users to search by city for current weather and 5-day forecasts.',
+      tools: 'Built with HTML, CSS, JavaScript, the OpenWeather.com APi, Moment.js Font Awesome, and the Weather Icons CSS package from Erik Flowers.',
       website_1: 'https://e-p-n.github.io/4caster/',
       website_2: 'https://github.com/e-p-n/4caster'
     },
     {
       name: 'Run Buddy',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'A webpage layout for a fitness centre. It features responsive design.',
+      tools: 'Built with HTML and CSS.',
       website_1: 'https://e-p-n.github.io/run-buddy/',
       website_2: 'https://github.com/e-p-n/run-buddy'
     }
