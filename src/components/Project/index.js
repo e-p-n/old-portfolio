@@ -4,6 +4,13 @@ import Modal from '../Modal'
 const PortfolioItems = ({ category }) => {
   const [photos] = useState([
     {
+      name: 'Woof',
+      description: 'Woof connects dog owners with dog walkers who’ll treat your dog like family.',
+      tools: 'Built with  MonoDB, Mongoose, JavaScript, Node.js, Express, Sequelize, React.',
+      website_1: 'https://woof-2021.herokuapp.com/',
+      website_2: 'https://github.com/woof-board/woof'
+    },
+    {
       name: 'Envoy',
       description: 'A community website designed to help members learn and share information on environmentally sound products and practices.',
       tools: 'Built with  MySQL, JavaScript, Node.js, Express, Sequelize, Bootstrap, Handlebars, Flickity, jQuery Bar Rating and Typed.js.',
@@ -23,13 +30,6 @@ const PortfolioItems = ({ category }) => {
       tools: 'Built with MySQL, Sequelize, Handlebars, Node.js and Express.',
       website_1: 'https://radiant-peak-23837.herokuapp.com/',
       website_2: 'https://github.com/e-p-n/poster'
-    },
-    {
-      name: 'Team Profile Generator',
-      description: 'A Node.js tool used to build a team profile webpage based off user input.',
-      tools: 'The website link shows a sample of a page created with the tool. Built with Node.js and Inquirer.',
-      website_1: 'https://e-p-n.github.io/team-profile-generator/dist/',
-      website_2: 'https://github.com/e-p-n/team-profile-generator'
     },
     {
       name: '4-caster',
