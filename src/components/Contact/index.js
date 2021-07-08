@@ -32,7 +32,10 @@ function ContactForm() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
+        const fields = {};
+        fields.name = document.getElementById('name');
+        fields.email = document.getElementById('email');
+        fields.message = document.getElementById('message');
     }
     return (
         <section className="mt-5">
@@ -40,15 +43,15 @@ function ContactForm() {
             <form id="contact-form" onSubmit={handleSubmit}>
                 {/* name input */}
                 <div>
-                    <input type="text" name="name" placeholder="Name" defaultValue={name} onBlur={handleChange} />
+                    <input id="name" type="text" name="name" placeholder="Name" defaultValue={name} onBlur={handleChange} />
                 </div>
                 {/* email input */}
                 <div>
-                    <input type="text" name="email" placeholder="Email" defaultValue={email} onBlur={handleChange} />
+                    <input id="email" type="text" name="email" placeholder="Email" defaultValue={email} onBlur={handleChange} />
                 </div>
                 {/* message text area */}
                 <div>
-                    <textarea name="message" rows="5" placeholder="Message" defaultValue={message} onBlur={handleChange} />
+                    <textarea id="message" name="message" rows="5" placeholder="Message" defaultValue={message} onBlur={handleChange} />
                 </div>
                 {errorMessage && (
                     <div>

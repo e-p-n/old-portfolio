@@ -1,14 +1,14 @@
 @use "sass:map";
 
-$primary: #7D6B91;
-$secondary: #989FCE;
-$success: #CDE6F5;
-$danger: #EB9486;
-$warning: #FFCE99;
-$info: #347FC4;
-$light: #FFEEDB;
-$dark: #272838;
-$muted: #5d536b;
+$primary: #1c3a6a;
+$secondary: #379683;
+$success: #c4b162;
+$danger: #ab0a20;
+$warning: #cc8466;
+$info: #6a92ca;
+$light: #eef5e2;
+$dark: #153831;
+$muted: #98d1a9;
 
 $theme-colors: (
     "primary": $primary,
@@ -34,7 +34,7 @@ body {
     border-radius: 50%;
     cursor: pointer;
     margin: 5px;
-    border: 8px solid $warning;
+    border: 8px solid $secondary;
 }
 
 .thumbnail {
@@ -66,7 +66,7 @@ body {
 
 .modalContainer {
     border: solid 2px $primary;
-	background: $success;
+	background: $info;
 	border-radius: 10px;
 	max-width: 100%;
 	margin: auto;
