@@ -6,7 +6,7 @@ const PortfolioItems = ({ category }) => {
     {
       name: 'Woof',
       description: 'Woof connects dog owners with dog walkers who’ll treat your dog like family.',
-      tools: 'Built with  MonoDB, Mongoose, JavaScript, Node.js, Express, Sequelize, React.',
+      tools: 'Built with  MongoDB, Mongoose, JavaScript, Node.js, Express, Sequelize, React.',
       website_1: 'https://woof-2021.herokuapp.com/',
       website_2: 'https://github.com/woof-board/woof'
     },
