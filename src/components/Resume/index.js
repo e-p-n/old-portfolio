@@ -6,7 +6,7 @@ export default function Resume() {
             <h1>
                 Resume
             </h1>
-            <p><a href="https://e-p-n.github.io/portfolio-1/assets/PDFs/resume.pdf" className="btn btn-info rounded-pill"> Download my <i class="fas fa-file"></i> resume</a></p>
+            <p><a href="/links/resume.pdf" className="btn btn-info rounded-pill"> Download my <i class="fas fa-file"></i> resume</a></p>
 
             <h2>
                 Proficiencies
@@ -37,5 +37,7 @@ export default function Resume() {
                 <li>Bootstrap</li>
             </ul>
         </section>
+
+
     )
 }

@@ -6,14 +6,14 @@ const PortfolioItems = ({ category }) => {
     {
       name: 'Woof',
       description: 'Woof connects dog owners with dog walkers who’ll treat your dog like family.',
-      tools: 'Built with  MonoDB, Mongoose, JavaScript, Node.js, Express, Sequelize, React.',
+      tools: 'Built with MongoDB, Mongoose, JavaScript, Node.js, Express, Sequelize, React. Logo created using Adobe Ilustrator.',
       website_1: 'https://woof-2021.herokuapp.com/',
       website_2: 'https://github.com/woof-board/woof'
     },
     {
       name: 'Envoy',
       description: 'A community website designed to help members learn and share information on environmentally sound products and practices.',
-      tools: 'Built with  MySQL, JavaScript, Node.js, Express, Sequelize, Bootstrap, Handlebars, Flickity, jQuery Bar Rating and Typed.js.',
+      tools: 'Built with MySQL, JavaScript, Node.js, Express, Sequelize, Bootstrap, Handlebars, Flickity, jQuery Bar Rating and Typed.js. Logo created using Adobe Ilustrator.',
       website_1: 'https://envoy-guide.herokuapp.com/',
       website_2: 'https://github.com/Envoy-products/Envoy-Products'
     },
@@ -34,16 +34,9 @@ const PortfolioItems = ({ category }) => {
     {
       name: '4-caster',
       description: 'A weather forecasting website that allows users to search by city for current weather and 5-day forecasts.',
-      tools: 'Built with HTML, CSS, JavaScript, the OpenWeather.com APi, Moment.js Font Awesome, and the Weather Icons CSS package from Erik Flowers.',
+      tools: 'Built with HTML, CSS, JavaScript, the OpenWeather.com APi, Moment.js, Font Awesome, and the Weather Icons CSS package from Erik Flowers.',
       website_1: 'https://e-p-n.github.io/4caster/',
       website_2: 'https://github.com/e-p-n/4caster'
-    },
-    {
-      name: 'Run Buddy',
-      description: 'A webpage layout for a fitness centre. It features responsive design.',
-      tools: 'Built with HTML and CSS.',
-      website_1: 'https://e-p-n.github.io/run-buddy/',
-      website_2: 'https://github.com/e-p-n/run-buddy'
     }
   ]);
   const [currentPhoto, setCurrentPhoto] = useState();
